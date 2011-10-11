@@ -13,9 +13,9 @@ $HANDSEED
   5
 FFFF
   9
-$DIMADEC
- 70
-2
+$DIMASZ
+ 40
+0.1
   9
 $GRIDUNIT
  10
@@ -23,69 +23,69 @@ $GRIDUNIT
  20
 0.0
   9
-$DIMASZ
- 40
-0.1
+$DIMADEC
+ 70
+2
   9
 $DIMGAP
  40
 0.025
   9
-$LUNITS
+$SPLINESEGS
  70
-4
+8
   9
 $AUPREC
  70
 2
   9
-$SPLINESEGS
+$LUNITS
  70
-8
-  9
-$INSUNITS
- 70
-1
+2
   9
 $DIMEXO
  40
 0.025
   9
-$DIMLUNIT
+$INSUNITS
  70
 4
   9
-$GRIDMODE
+$DIMLUNIT
  70
-1
+2
   9
 $DIMTXT
  40
 0.1
   9
+$GRIDMODE
+ 70
+1
+  9
 $LUPREC
  70
 4
+  9
+$PSVPSCALE
+ 40
+0.1348360873261713
   9
 $DIMSTYLE
   2
 Standard
   9
-$PSVPSCALE
- 40
-0.1348360873261713
+$PLIMMAX
+ 10
+210.0
+ 20
+297.0
   9
 $PLIMMIN
  10
 0.0
  20
 0.0
-  9
-$PLIMMAX
- 10
-8.2677165354330722
- 20
-11.6929133858267722
   9
 $DIMEXE
  40
@@ -1837,37 +1837,9 @@ SECTION
   2
 ENTITIES
   0
-LINE
-  5
-5D
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-24.5
- 20
-15.0
- 30
-0.0
- 11
-24.5
- 21
-1.75
- 31
-0.0
-  0
 CIRCLE
   5
-5E
+5D
 100
 AcDbEntity
 100
@@ -1889,39 +1861,9 @@ ByLayer
  40
 0.625
   0
-ARC
-  5
-5F
-100
-AcDbEntity
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-33.6177834383536052
- 20
-2.25
- 30
-0.0
- 40
-0.5
-100
-AcDbArc
- 50
-270.0
- 51
-299.6237487511739346
-  0
 DIMENSION
   5
-60
+5E
 100
 AcDbEntity
   8
@@ -1941,9 +1883,9 @@ AcDbDimension
  30
 0.0
  11
-25.1783164825185004
+24.6866666837542432
  21
-13.1889085387707077
+12.7616042797360016
  31
 0.0
  70
@@ -1951,7 +1893,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -1973,7 +1915,7 @@ AcDbRadialDimension
   0
 DIMENSION
   5
-61
+5F
 100
 AcDbEntity
   8
@@ -2003,7 +1945,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -2033,7 +1975,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-62
+60
 100
 AcDbEntity
   8
@@ -2063,7 +2005,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -2091,93 +2033,9 @@ AcDbAlignedDimension
 100
 AcDbRotatedDimension
   0
-LINE
-  5
-63
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-30.6199102211948535
- 20
-7.445805642662803
- 30
-0.0
- 11
-33.7204729533787599
- 21
-2.130555244633257
- 31
-0.0
-  0
-LINE
-  5
-64
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-33.6177834383536052
- 20
-7.75
- 30
-0.0
- 11
-33.6177834383536052
- 21
-1.75
- 31
-0.0
-  0
-LINE
-  5
-65
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-18.8822165616463877
- 20
-7.7499999999999991
- 30
-0.0
- 11
-18.8822165616463877
- 21
-1.7499999999999991
- 31
-0.0
-  0
 INSERT
   5
-66
+61
 100
 AcDbEntity
 100
@@ -2205,7 +2063,7 @@ Joystick
   0
 DIMENSION
   5
-67
+62
 100
 AcDbEntity
   8
@@ -2235,7 +2093,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -2265,7 +2123,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-68
+63
 100
 AcDbEntity
   8
@@ -2295,7 +2153,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -2325,7 +2183,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-69
+64
 100
 AcDbEntity
   8
@@ -2355,7 +2213,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -2383,65 +2241,9 @@ AcDbAlignedDimension
 100
 AcDbRotatedDimension
   0
-LINE
-  5
-6A
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-19.0
- 20
-15.0000000000000018
- 30
-0.0
- 11
-19.0
- 21
-1.750000000000002
- 31
-0.0
-  0
-LINE
-  5
-6B
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-30.0
- 20
-14.9999999999999982
- 30
-0.0
- 11
-30.0
- 21
-1.7499999999999987
- 31
-0.0
-  0
 INSERT
   5
-6C
+65
 100
 AcDbEntity
 100
@@ -2469,7 +2271,7 @@ Buttons
   0
 INSERT
   5
-6D
+66
 100
 AcDbEntity
 100
@@ -2495,157 +2297,9 @@ Buttons
  45
 2.0
   0
-MTEXT
-  5
-6E
-100
-AcDbEntity
-100
-AcDbMText
-  8
-Text
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-29.2692183386419487
- 20
-12.0765270787486099
- 30
-0.0
- 40
-0.5
- 41
-100.0
- 71
-1
- 72
-2
-  1
-Pause
-  7
-normallatin1
- 50
-0.0
- 73
-1
- 44
-1.0
-  0
-MTEXT
-  5
-6F
-100
-AcDbEntity
-100
-AcDbMText
-  8
-Text
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-17.6686135093021512
- 20
-11.9575465163964054
- 30
-0.0
- 40
-0.5
- 41
-100.0
- 71
-1
- 72
-2
-  1
-Exit\~Game
-  7
-normallatin1
- 50
-0.0
- 73
-1
- 44
-1.0
-  0
-MTEXT
-  5
-70
-100
-AcDbEntity
-100
-AcDbMText
-  8
-Text
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-23.5581513457362028
- 20
-14.2776674822643663
- 30
-0.0
- 40
-0.5
- 41
-100.0
- 71
-1
- 72
-2
-  1
-Player\~1
-  7
-normallatin1
- 50
-0.0
- 73
-1
- 44
-1.0
-  0
-LINE
-  5
-71
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-21.8822165616463877
- 20
-7.7499999999999982
- 30
-0.0
- 11
-21.8822165616463877
- 21
-1.7499999999999984
- 31
-0.0
-  0
 INSERT
   5
-72
+67
 100
 AcDbEntity
 100
@@ -2677,7 +2331,7 @@ Buttons
   0
 DIMENSION
   5
-73
+68
 100
 AcDbEntity
   8
@@ -2707,7 +2361,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -2737,7 +2391,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-74
+69
 100
 AcDbEntity
   8
@@ -2767,7 +2421,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -2797,7 +2451,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-75
+6A
 100
 AcDbEntity
   8
@@ -2827,7 +2481,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -2857,7 +2511,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-76
+6B
 100
 AcDbEntity
   8
@@ -2887,7 +2541,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -2915,149 +2569,9 @@ AcDbAlignedDimension
 100
 AcDbRotatedDimension
   0
-INSERT
-  5
-77
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-Trackball
- 10
-27.0
- 20
-9.0
- 30
-0.0
- 44
-2.0
- 45
-2.0
-  0
-LINE
-  5
-78
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-29.875
- 20
-9.0
- 30
-0.0
- 11
-29.875
- 21
-3.2499999999999996
- 31
-0.0
-  0
-LINE
-  5
-79
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-27.0
- 20
-6.125
- 30
-0.0
- 11
-32.75
- 21
-6.125
- 31
-0.0
-  0
-LINE
-  5
-7A
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-32.375
- 20
-9.0
- 30
-0.0
- 11
-32.375
- 21
-3.2499999999999991
- 31
-0.0
-  0
-LINE
-  5
-7B
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-27.375
- 20
-9.0000000000000018
- 30
-0.0
- 11
-27.375
- 21
-3.2500000000000004
- 31
-0.0
-  0
 CIRCLE
   5
-7C
+6C
 100
 AcDbEntity
 100
@@ -3081,7 +2595,7 @@ ByLayer
   0
 CIRCLE
   5
-7D
+6D
 100
 AcDbEntity
 100
@@ -3103,65 +2617,9 @@ ByLayer
  40
 0.125
   0
-LINE
-  5
-7E
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-27.0
- 20
-3.625
- 30
-0.0
- 11
-32.75
- 21
-3.625
- 31
-0.0
-  0
-LINE
-  5
-7F
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guidelines
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-27.0
- 20
-8.625
- 30
-0.0
- 11
-32.75
- 21
-8.625
- 31
-0.0
-  0
 CIRCLE
   5
-80
+6E
 100
 AcDbEntity
 100
@@ -3185,7 +2643,7 @@ ByLayer
   0
 CIRCLE
   5
-81
+6F
 100
 AcDbEntity
 100
@@ -3209,7 +2667,7 @@ ByLayer
   0
 CIRCLE
   5
-82
+70
 100
 AcDbEntity
 100
@@ -3233,7 +2691,7 @@ ByLayer
   0
 DIMENSION
   5
-83
+71
 100
 AcDbEntity
   8
@@ -3263,7 +2721,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -3293,7 +2751,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-84
+72
 100
 AcDbEntity
   8
@@ -3323,7 +2781,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -3353,7 +2811,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-85
+73
 100
 AcDbEntity
   8
@@ -3383,7 +2841,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -3413,7 +2871,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-86
+74
 100
 AcDbEntity
   8
@@ -3443,7 +2901,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -3473,7 +2931,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-87
+75
 100
 AcDbEntity
   8
@@ -3503,7 +2961,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -3533,7 +2991,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-88
+76
 100
 AcDbEntity
   8
@@ -3563,7 +3021,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -3593,7 +3051,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-89
+77
 100
 AcDbEntity
   8
@@ -3623,7 +3081,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -3689,7 +3147,7 @@ E
   3
 AcDbVariableDictionary
 350
-8A
+78
   0
 DICTIONARY
   5
@@ -4153,7 +3611,7 @@ Layout2
   0
 DICTIONARY
   5
-8A
+78
 100
 AcDbDictionary
 281
@@ -4161,15 +3619,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-8C
+7A
   3
 HIDETEXT
 350
-8B
+79
   0
 DICTIONARYVAR
   5
-8B
+79
 100
 DictionaryVariables
 280
@@ -4179,7 +3637,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-8C
+7A
 100
 DictionaryVariables
 280
